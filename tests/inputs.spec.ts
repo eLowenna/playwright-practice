@@ -12,9 +12,9 @@ test.describe('Inputs', () => {
     const username = page.getByLabel('Username');
     const result = page.getByTestId('username-result'); 
 
-    await username.fill("Testicules")
+    await username.fill("Test")
 
-    await expect(result).toHaveText("You entered: Testicules")
+    await expect(result).toHaveText("You entered: Test")
   
   });
 
