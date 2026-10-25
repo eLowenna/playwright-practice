@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 const URL = "https://playwright-playground.com/basic/checkboxes"
 
-test.describe('Inputs', () => {
+test.describe('Checkboxes', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(URL);
   });

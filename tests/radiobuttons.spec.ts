@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 const URL = "https://playwright-playground.com/basic/radio-buttons"
 
-test.describe('Inputs', () => {
+test.describe('Radio Buttons', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(URL);
   });
